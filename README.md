@@ -1,2 +1,2 @@
-# Third-web-project-
-I have created the web page of user friendly calculator using HTML, CSS and JS
+# https://third-web-project-.deepu4738.repl.co
+calculator
