@@ -1,0 +1,59 @@
+*{
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#mainheading{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 6vw;
+    margin-bottom: 3vw;
+    margin-top: 13vw;
+    
+}
+#inp{
+    background-color: #f3e1ef;
+    border-radius: 2vw;
+    border: 0.2vw solid black;
+    padding: 1.3vw;
+    text-align: right;
+    font-size: 4.7vw;
+    width: 96%;
+    height: 78%;
+}
+table{
+    /* border: 2px solid black; */
+    width: 60vw;
+    min-height: 20vw;
+    box-shadow: 0vw 1vw 4vw 1vw black;
+}
+td{
+    /* border: 2px solid black; */
+    width: 2vw;
+    height: 2px;
+    text-align: center;
+}
+td button{
+    font-size: 2vw;
+    font-family: 'Lugrasimo', cursive;
+    margin: 2vw;
+    /* padding: 0vw; */
+    background-color: aqua;
+    width: 80%;
+    height: 80%;
+    border-radius: 20%;
+}
+td button:hover{
+    position: relative;
+    left: 0.5vw;
+    background-color: red;
+    color: white;
+    width: 70%;
+    height: 70%;
+    /* margin: 3vw; */
+    /* justify-content: center; */
+}

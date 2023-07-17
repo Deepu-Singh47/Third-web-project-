@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTqqf9li30b2FE_FJfwdIPaXtAPQXCGApPRA&usqp=CAU"
+        type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+    </style>
+    <script src="logic.js"></script>
+    <title>DK calculator</title>
+</head>
+
+<body>
+    <div>
+        <h1 id="mainheading">SMART CALCULATOR</h1>
+    </div>
+    <div style="margin-bottom: 12vw;">
+        <table>
+            <tr>
+                <td colspan="1"><button ondblclick="clearData()" onclick="popot()">C</button></td>
+                <td colspan="3"><input id="inp" type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="1"><button onclick="storeData('+')">+</button></td>
+                <td colspan="1"><button onclick="storeData('1')">1</button></td>
+                <td colspan="1"><button onclick="storeData('2')">2</button></td>
+                <td colspan="1"><button onclick="storeData('3')">3</button></td>
+            </tr>
+            <tr>
+                <td colspan="1"><button onclick="storeData('-')">-</button></td>
+                <td colspan="1"><button onclick="storeData('4')">4</button></td>
+                <td colspan="1"><button onclick="storeData('5')">5</button></td>
+                <td colspan="1"><button onclick="storeData('6')">6</button></td>
+            </tr>
+            <tr>
+                <td colspan="1"><button onclick="storeData('*')">X</button></td>
+                <td colspan="1"><button onclick="storeData('7')">7</button></td>
+                <td colspan="1"><button onclick="storeData('8')">8</button></td>
+                <td colspan="1"><button onclick="storeData('9')">9</button></td>
+            </tr>
+            <tr>
+                <td colspan="1"><button onclick="storeData('/')">%</button></td>
+                <td colspan="1"><button onclick="storeData('.')">.</button></td>
+                <td colspan="1"><button onclick="storeData('0')">0</button></td>
+                <td colspan="1"><button onclick="cal()">=</button></td>
+            </tr>
+        </table>
+    </div>
+    <div></div>
+
+</body>
+
+</html>
